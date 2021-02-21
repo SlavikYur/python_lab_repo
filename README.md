@@ -21,6 +21,6 @@
 
 Інструкція по запуску:
 
-1. Клонувати репозиторій (Ввести git clone https://github.com/SlavikYur/python_lab_repo.git)
+1. Клонувати репозиторій (Ввести в терміналі git clone https://github.com/SlavikYur/python_lab_repo.git)
 2. Перейти в папку з даним репозиторієм
-3. Ввести "python Lab1.py"
+3. Ввести в терміналі python Lab1.py
