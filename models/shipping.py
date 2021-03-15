@@ -17,8 +17,8 @@ class Shipping:
         for item in self._items_ordered:
             shipping_str += f'{item.__str__()}'
 
-        shipping_str += f'Company: {self._shipping_type._company._name}\nShipping type: {self._shipping_type._shipping_type_name}\n' \
-            + f'Shipping price: {self.calc_shipping_price()}\nTotal price: {self.calc_shipping_price()+self.calc_total_price_without_shipping()}\n'
+        shipping_str += self._shipping_type._company.__str__() 
+        shipping_str += f'Shipping price: {self.calc_shipping_price()}\nTotal price: {self.calc_shipping_price()+self.calc_total_price_without_shipping()}\n'
 
         shipping_str += 'Delivery date: ' + (date.today() + timedelta(days=self._shipping_type._company._shipping_type_time_days[self._shipping_type._shipping_type_name])).strftime('%d.%m.%Y') + '\n\n'     
 
