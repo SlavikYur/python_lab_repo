@@ -15,3 +15,6 @@ class Company:
         self._coef_for_shipping_type = coef_for_shipping_type
         self._shipping_type_time_days = shipping_type_time_days
         self._coef_for_item_type = coef_for_item_type
+        
+    def __str__(self):
+        return f"Company: {self._name}\nRating: {self._rating}\n"        
