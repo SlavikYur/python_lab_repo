@@ -13,7 +13,7 @@ def main():
             r'([a-zA-Z0-9._/-]+)'
             r'.mpg'
             r' ([a-zA-Z0-9._/-]+)\"'
-            r' 200 \d+')
+            r' (200 \d+)')
 
         REGEX_STOP_SEARCH = re.compile(r'(01/Jul/1995:(\d[1-9]:\d{2}:\d[1-9]))')
         
