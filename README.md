@@ -12,4 +12,4 @@ To run:
     5. Type pip install -r requirements
     6. In app file in line 7 change names to your user, password and databases names
     7. export flask app: "export FLASK_APP=app.py" for unix and "set FLASK_APP=app.py" for Windows  
-    8. Run the app: python app.py
+    8. Run the app: flask run
