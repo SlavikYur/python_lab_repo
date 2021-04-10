@@ -1,8 +1,10 @@
 My task was to:
+
     1. Write rest-service (GET/POST/PUT/DELETE) for a certaun class of Lab3 using python and flask
     2. Using SQLAlchemy and mysql
 
 To run:
+
     1. Clone or download repo and go to that folder
     2. Download and install MySQL and create database
     3. Being in that folder create virtual enviroment python -m venv venv
