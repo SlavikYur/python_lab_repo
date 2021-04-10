@@ -8,8 +8,8 @@ To run:
     1. Clone or download repo and go to that folder
     2. Download and install MySQL and create database
     3. Being in that folder create virtual enviroment python -m venv venv
-    4. Activate virtual enviroment: __source .venv/bin/activate__ for unix and __venv\Scripts\activate.bat__ for windows
+    4. Activate virtual enviroment: source .venv/bin/activate for unix and venv\Scripts\activate.bat for windows
     5. Type pip install -r requirements
     6. In app file in line 7 change names to your user, password and databases names
-    7. export flask app: __export FLASK_APP=app.py__ for unix and __set FLASK_APP=app.py__ for Windows  
+    7. export flask app: export FLASK_APP=app.py for unix and set FLASK_APP=app.py for Windows  
     8. Run the app: python app.py
